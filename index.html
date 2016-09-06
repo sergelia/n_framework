@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>N_framework by sergelia</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>N_framework</h1>
+        <p>A work-in-progress SCSS framework</p>
+
+        <p class="view"><a href="https://github.com/sergelia/n_framework">View the Project on GitHub <small>sergelia/n_framework</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/sergelia/n_framework/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/sergelia/n_framework/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/sergelia/n_framework">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <hr>
+
+<h3>
+<a id="i-about" class="anchor" href="#i-about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>I About</h3>
+
+<p>N-framework: a SCSS-learning and practice experience with the intent to be used in the author's personal projects. </p>
+
+<p>To install, export the project files, run <code>grunt compile</code>, and load <code>/style/css/index.css</code> for direct use on your page.</p>
+
+<hr>
+
+<h3>
+<a id="ii-contexts" class="anchor" href="#ii-contexts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>II Contexts</h3>
+
+<p>The framework covers three style contexts, which can be mixed and matched. </p>
+
+<p>The following contexts will be included:</p>
+
+<ul>
+<li>Linear [Default]</li>
+</ul>
+
+<p>Most apparent in form settings, the linear context prioritizes a clean UI, with whitespace as the primary method of distinguishing between areas. 
+In addition to whitespace, the linear context can use subtle distinctions in background color to delineate block level elements.
+To mark a block element, typically a left or top border in a contextual color is used. 
+The linear context avoids shadows, and never uses more than one side of a block for a border.</p>
+
+<ul>
+<li>Squared [Coming soon]</li>
+</ul>
+
+<p>The squared context uses four-sided 'boxes' to segregate content. Background colors differ from the main page background only in specially assigned cases ('context boxes'). Square elements are preferred, but other geometric shapes are available for marking list items, input elements and presenting images.</p>
+
+<ul>
+<li>Smooth [Coming soon]</li>
+</ul>
+
+<p>The smooth context uses border radius and :before and :after pseudoclasses, and uses shadow to suggest a three-dimensional space. The model defaults to top-left 45 degree light source, and can be globally configured to provide a different source of lighting (top, left, right and bottom only).</p>
+
+<p>Lines are avoided in the smooth model and shades and hues are used to provide distinction between elements.</p>
+
+<h2>
+<a id="iii-vertical-rhythm" class="anchor" href="#iii-vertical-rhythm" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>III Vertical rhythm</h2>
+
+<p>The framework provides some tools to establish vertical rhythm. 
+It uses the Sassline library for the baseline grid (source: <a href="https://github.com/jakegiltsoff/sassline">https://github.com/jakegiltsoff/sassline</a>).
+The desired ratios inspired by the modular scale are set up for all three contexts and should be used to set margins and padding. 
+They are included by default in the framework's available grid and component classes.</p>
+
+<hr>
+
+<h3>
+<a id="iv-typography" class="anchor" href="#iv-typography" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>IV Typography</h3>
+
+<p>Three different type sets are suggested for the three contexts. CDN or self-hosted webfonts can be set in the type SCSS partial, but the three families are used by default:</p>
+
+<ul>
+<li>Linear
+Sans-serif fonts are used exclusively in the linear model, imagined as a flat material design offshot. It uses Christian Robertson's Roboto, in Slab and Normal.</li>
+</ul>
+
+<p>Roboto Slab: <a href="https://www.google.com/fonts/specimen/Roboto+Slab">https://www.google.com/fonts/specimen/Roboto+Slab</a></p>
+
+<p>Roboto: <a href="https://www.google.com/fonts/specimen/Roboto">https://www.google.com/fonts/specimen/Roboto</a></p>
+
+<p>Source: <a href="https://github.com/import" class="user-mention">@import</a> url(<a href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab&amp;subset=latin-ext">https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&amp;subset=latin-ext</a>);</p>
+
+<ul>
+<li>Squared
+The squared model uses Droid Sans for body type, and Oswald for headings, labels and captions.</li>
+</ul>
+
+<p>Oswald: <a href="http://www.google.com/fonts/specimen/Oswald">http://www.google.com/fonts/specimen/Oswald</a></p>
+
+<p>Droid Sans: <a href="http://www.google.com/fonts/specimen/Droid+Sans">http://www.google.com/fonts/specimen/Droid+Sans</a></p>
+
+<p>Source: <a href="https://github.com/import" class="user-mention">@import</a> url(<a href="https://fonts.googleapis.com/css?family=Droid+Sans%7COswald&amp;subset=latin-ext">https://fonts.googleapis.com/css?family=Droid+Sans|Oswald&amp;subset=latin-ext</a>);</p>
+
+<ul>
+<li>Smooth
+By default, in this proto-version of the framework, I use Vernon Adam's Muli as a display font, paired with Cyreal's Lora in the body. </li>
+</ul>
+
+<p>Muli: <a href="https://www.google.com/fonts/specimen/Muli">https://www.google.com/fonts/specimen/Muli</a></p>
+
+<p>Lora: <a href="https://www.google.com/fonts/specimen/Lora">https://www.google.com/fonts/specimen/Lora</a></p>
+
+<p>Source: <a href="https://github.com/import" class="user-mention">@import</a> url(<a href="https://fonts.googleapis.com/css?family=Lora%7CMuli&amp;subset=latin-ext">https://fonts.googleapis.com/css?family=Lora|Muli&amp;subset=latin-ext</a>);</p>
+
+<hr>
+
+<h3>
+<a id="issues-and-bug-reporting" class="anchor" href="#issues-and-bug-reporting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issues and bug reporting</h3>
+
+<p>Send an e-mail to <a href="nusa.babic@outlook.com">nusa.babic@outlook.com</a> for suggestions and to report significant oversights. For bugs and technical issues, use the Issues page.</p>
+
+<hr>
+
+<h3>
+<a id="copyright--license" class="anchor" href="#copyright--license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Copyright &amp; license</h3>
+
+<p>The framework is created and maintained by Nusa Babic <a href="http://github.com/sergelia">@sergelia</a>. Refer to LICENSE for licensing information (tl;dr: use it whichever way you like).</p>
+
+<hr>
+
+<p>September 2016</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/sergelia">sergelia</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
