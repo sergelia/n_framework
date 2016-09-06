@@ -1,0 +1,30 @@
+{
+  "name": "n-framework",
+  "version": "1.0.0",
+  "description": "Simplistic responsive front-end framework",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sergelia/n-framework.git"
+  },
+  "keywords": [
+    "front-end",
+    "scss",
+    "responsive",
+    "framework"
+  ],
+  "author": "Nusa Babic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergelia/n-framework/issues"
+  },
+  "homepage": "https://github.com/sergelia/n-framework#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-sass": "^1.0.0"
+  }
+}

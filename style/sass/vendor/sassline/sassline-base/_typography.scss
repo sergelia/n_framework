@@ -1,0 +1,71 @@
+// Typography
+// ---------------------------------------
+
+// Setting root sizes and base styles.
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+
+  @include rootsize;
+}
+
+// Site-wide base styles.
+body {
+  font-style: normal;
+  font-weight: map-get($bodytype, regular);
+  line-height: 2rem;
+
+  @include fontsize(zeta, all);
+}
+
+
+// Styles for typeset text.
+.typeset {
+
+
+
+  // Paragraphs. OpenType ligatures and oldstyle figures enabled if available.
+  p {
+    font-feature-settings: 'kern', 'onum', 'liga';
+
+    @include baseline($fontsize: $fontsize, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
+  }
+
+  // Headings. OpenType ligatures, discretionary ligatures and lining figures enabled if available.
+  h1, h2, h3, h4, h5, h6 {
+    font-feature-settings: 'dlig', 'liga', 'lnum', 'kern';
+    font-style: normal;
+    font-weight: map-get($headingtype, bold);
+  }
+
+  // Heading level 1.
+  h1, .h1 {
+    @include sassline($fontsize: alpha, $font: $headingtype, $lineheight: 3, $below: 1, $breakpoint: all);
+  }
+
+  // Heading level 2.
+  h2, .h2 {
+    @include sassline(beta, $headingtype, 3, 1, all);
+  }
+
+  // Heading level 3.
+  h3, .h3 {
+    @include sassline(gamma, $headingtype, 3, 1, all);
+  }
+
+  // Heading level 4.
+  h4, .h4 {
+    @include sassline(delta, $headingtype, 2, 0, all);
+  }
+
+  // Heading level 5.
+  h5, .h5 {
+    @include sassline(epsilon, $headingtype, 2, 0, all);
+  }
+
+  // Heading level 6.
+  h6, .h6 {
+    @include sassline(zeta, $headingtype, 2, 0, all);
+  }
+
+}

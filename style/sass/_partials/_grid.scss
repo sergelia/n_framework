@@ -1,0 +1,70 @@
+/**
+* The grid system for the n-styles framework
+* @author Nusa Babic
+* @version 1.0.0
+* @since March 2016
+*/
+
+
+@mixin makeGrid($num, $padding: 2%, $margin: 2%) {
+	@for $i from 1 through $num {
+		.has-#{$i} {
+			
+			> * {
+				float: left;/* 
+				&:not(.nopadding) {
+					padding-right: $padding;
+				} */
+				&:not([class^="is-"]) {
+					width: 100%;
+				}
+				
+			}
+			width: 100%;
+			display: block;
+			@extend %clearfix;
+		}
+		.is-#{$i} {
+			&.standalone {
+				$factor: $num / $i;
+				@include isMarginContainer($factor, $margin);
+			}
+			&:not(.standalone) {
+				$factor: $i / $num;
+				@include isContainer($factor);
+			}
+		}
+		@if $i < $num {
+			.offset-#{$i} {
+				margin-left: calcGridColumnWidth($num, $i);
+			}
+		}
+		
+	}
+	@for $i from 1 through 4 {
+		.break-before-#{$i} {
+			margin-top: $i * 1em;
+		}
+
+		.break-after-#{$i} {
+			margin-bottom: $i * 1em;
+		}
+	}
+}
+
+@mixin isMarginContainer($i, $margin) {
+	
+	// total width of container, minus margins
+	$total: 100% - (($i - 1) * $margin);
+	margin-right: $margin;
+	width: $total / $i;
+	&:last-child {
+		margin-right: 0;
+	}
+}
+@mixin isContainer($i) {
+	width: 100 * $i * 1%;
+}
+@function calcGridColumnWidth($num, $i) {
+	@return (100 / $num) *$i * 1%;
+}

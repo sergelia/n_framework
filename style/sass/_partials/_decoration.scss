@@ -1,0 +1,139 @@
+button {
+	&.zero-button {
+		background-color: transparent;
+		color: inherit;
+		border: none;
+		box-shadow: none;
+		cursor: pointer;
+	}
+	&.icon-button {
+		width: em($fontsize*2);
+		height: em($fontsize*4);
+		background-color: transparent;
+		color: transparent;
+		border: none;
+		box-shadow: none;
+		cursor: pointer;
+		
+		&:before {
+			-webkit-background-size: contain;
+			-moz-background-size: contain;
+			-o-background-size: contain;
+			background-size: contain;
+			background-repeat: no-repeat;
+			display: block;
+			content: ' ';
+			height: em($fontsize*2);
+			width: em($fontsize*2);
+		}
+		&:hover {
+			color: inherit;
+		}
+		&.iback {
+			&:before {
+				background-image: url(../../images/icons/back-arrow.png);
+			}
+		}
+		&.iforward {
+			&:before {
+				background-image: url(../../images/icons/forward-arrow.png);
+			}
+		}
+		&.ilove {
+			&:before {
+				background-image: url(../../images/icons/love.png);
+			}
+		}
+		&.istar {
+			&:before {
+				background-image: url(../../images/icons/star.png);
+			}
+		}
+		&.ishare {
+			&:before {
+				background-image: url(../../images/icons/share.png);
+			}
+		}
+		&.iremove {
+			&:before {
+				background-image: url(../../images/icons/remove.png);
+			}
+		}
+		
+	}
+
+}
+
+
+// colorschemes
+
+.text-center {
+	text-align: center;
+}
+.highlight-bg {
+	background-color: $highlight-color;
+	color: $shade-color;
+	a {
+		color: $subdue-color;
+		&:hover, &:visited, &:active {
+			color: darken($subdue-color, 20%);
+		}
+	}
+}
+.shade-bg {
+	background-color: $shade-color;
+	color: $highlight-color;
+	
+	a {
+		color: $accent-color;
+		&:hover, &:visited, &:active {
+			color: lighten($accent-color, 20%);
+		}
+	}
+}
+.accent-bg {
+	background-color: $accent-color;
+	color: $shade-color;
+	a {
+		color: $contrast-color;
+		&:hover, &:visited, &:active {
+			color: darken($contrast-color, 20%);
+		}
+	}
+}
+.contrast-bg {
+	background-color: $contrast-color;
+	color: $highlight-color;
+	a {
+		color: $accent-color;
+		&:hover, &:visited, &:active {
+			color: darken($accent-color, 20%);
+		}
+	}
+}
+
+
+.dark-background {
+	h1, .h1, a {
+		color: $accent-color;
+	}
+	a:hover {
+		color: $subdue-color;
+	}
+	@for $i from 2 through 6 {
+		h#{$i}, .h#{$i} {
+			color: $subdue-color;
+		}
+	}
+	p, em, .text, table {
+		color: $highlight-color;
+	}
+}
+
+
+%mediumtext {
+	@include sassline($fontsize: $mediumtext/1px, $font: $bodytype, $lineheight: 1.5, $below: 1, $breakpoint: all);
+}
+%tinytext {
+	@include sassline($fontsize: $tinytext/1px, $font: $bodytype, $lineheight: 1.2, $below: 0.8, $breakpoint: all);
+}

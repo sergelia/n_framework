@@ -1,0 +1,23 @@
+// Basic reset
+
+/* undohtml.css */
+/* (CC) 2004 Tantek Celik. Some Rights Reserved.                  */
+/* http://creativecommons.org/licenses/by/2.0                     */
+/* This style sheet is licensed under a Creative Commons License. */
+
+:link, :visited {
+	text-decoration: none;
+}
+ul, ol {
+	list-style: none;
+}
+a img, :link img, :visited img {
+	border: none;
+}
+address {
+	font-style: normal;
+}
+
+header, section, aside, footer, main {
+	display: block;
+}

@@ -1,0 +1,162 @@
+/**
+* The n-styles framework form versions
+* @author Nusa Babic
+* @version 1.0.0
+* @since March 2016
+*/
+form {
+	input {
+		background: none;
+		-webkit-backface-visibility: transparent;
+		-webkit-appearance: none;
+		:hover, :focus, :active {
+			border-color: $accent-color;
+		}
+		:focus, :active {
+			background-color: palest($accent-color);
+			color: $shade-color;
+			@include zoomInType();
+		}
+		&[type="radio"] {
+
+		}
+		&[type="checkbox"] {
+			
+		}
+		&[type="date"] {
+			&.date-start {
+				&:after {
+
+				}
+			}
+			&.date-end {
+
+			}
+		}
+
+	}	
+	&.form-linear {
+		label {
+
+		}
+
+		input {
+			border: none;
+			border-bottom: 1px solid $shade-color;
+			
+			&[type="radio"] {
+
+			}
+			&[type="checkbox"] {
+				
+			}
+			&[type="date"] {
+				&.date-start {
+
+				}
+				&.date-end {
+
+				}
+			}
+
+		}	
+
+		select {
+
+		}
+
+		textarea {
+
+		}
+	}
+	&.form-squared {
+		label {
+
+		}
+
+		input {
+			border: none;
+			border-bottom: 1px solid $shade-color;
+			
+			&[type="radio"] {
+
+			}
+			&[type="checkbox"] {
+				
+			}
+			&[type="date"] {
+				&.date-start {
+
+				}
+				&.date-end {
+
+				}
+			}
+
+		}	
+
+		select {
+
+		}
+
+		textarea {
+
+		}
+	}
+	&.form-smooth {
+		label {
+
+		}
+
+		input {
+			border: none;
+			border-bottom: 1px solid $shade-color;
+			
+			&[type="radio"] {
+
+			}
+			&[type="checkbox"] {
+				
+			}
+			&[type="date"] {
+				&.date-start {
+
+				}
+				&.date-end {
+
+				}
+			}
+
+		}	
+
+		select {
+
+		}
+
+		textarea {
+
+		}
+	}
+}
+
+button {
+	background: none;
+	-webkit-backface-visibility: none;
+	box-shadow: none; 
+	&.linear {
+		border: 1px solid;
+		background-color: transparent; 
+		
+		&.basic {
+			border-color: $shade-color;
+			color: $shade-color; 
+			text-transform: uppercase;
+			font-weight: 100;
+
+		}
+		&.accent {
+			border-color: $accent-color;
+			color: $accent-color; 
+		}
+	}
+}

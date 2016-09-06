@@ -1,0 +1,89 @@
+/**
+* The n-styles framework index
+* @author Nusa Babic
+* @version 1.0.0
+* @since March 2016
+*/
+
+// 1 Styles particular to the website 
+
+$accent-color: #44d2f6;
+$subdue-color: #438899;
+$shade-color: #272727;
+$contrast-color: #f65144;
+$highlight-color: #e5e5e5;
+
+@import url(https://fonts.googleapis.com/css?family=Lora|Muli&subset=latin-ext);
+
+// 2 Framework styles
+@import "_partials/reset";
+@import "_partials/config";
+// import baseline
+@import "vendor/sassline/sassline-base";
+@import "_partials/dynamic";
+@import "_partials/decoration";
+@import "_partials/blocks";
+//@import "_partials/list";
+//@import "_partials/menu";
+@import "_partials/grid";
+
+// icons via Open Iconic — www.useiconic.com/open
+@import "vendor/open-iconic";
+
+html {
+	@include makeGrid(12);
+	@include createFontFamily();
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+
+.sidebared {
+	display: table;
+	width: 100%;
+	min-height: 100vh;
+	
+	.table-row {
+		display: table-row;
+		.fixed-height {
+			display: table-cell;
+			float: none;
+			min-height: 100vh;
+			height: 100vh;
+		}
+	}
+}
+
+.main-sidebar {
+	// For a solid-color sidebar, uncomment the following line...
+	//background-color: $shade-color;
+
+	// ...and commment out the background-image block:
+	background-image: url(../../images/bg-pattern.png);
+	background-repeat: repeat-y;
+	background-size: 100%;
+	
+	padding: em($fontsize);
+		
+	h2 {
+		text-transform: uppercase;
+	}
+}
+
+.main-footer {
+	vertical-align: bottom;
+}
+
+.background-sample {
+	background: url(../../images/1.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height: 300px;
+	padding: 0 !important;
+}
+
+.backbutton {
+	position: fixed;
+	bottom: em($fontsize);
+	left: em($fontsize);
+}

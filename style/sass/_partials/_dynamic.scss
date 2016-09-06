@@ -1,0 +1,106 @@
+/**
+* Animation support for dynamic and generated elements in the n-styles framework.
+* @author Nusa Babic
+* @version 1.2.1
+* @since August 2016
+*/
+
+/**
+* Snippet example for the keyframes and animation mixin: 
+
+@include keyframes(slide-down) {
+  0% { opacity: 1; }
+  90% { opacity: 0; }
+}
+
+.element {
+  width: 100px;
+  height: 100px;
+  background: black;
+  @include animation('slide-down 5s 3');
+}
+
+*/
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }  
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }  
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};      
+}
+
+/**
+* Snippet for transitions
+a {
+  color: gray;
+  @include transition(color .3s ease);
+  &:hover {
+    color: black;
+  }
+}
+*/
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+/**
+* Animation snippets for block elements. 
+*/
+
+/**
+* Expand an element, such as a card, lightbox or a modal, 
+* relative to current position or the center of the page.
+* @param $target_pos [self, center]
+*/
+
+@mixin expand($target_pos: 'center') {
+
+}
+/**
+* Slide element in a direction, with optional disappearance.
+* Defaults to sliding up without disappearing from the DOM.
+*
+* @param $direction [up, right, down, left]
+* @param $disappear [0, 1]
+*/
+@mixin slide($direction: 'up', $disappear: 0) {
+
+}
+
+/**
+* Vibration effect, ranging from a nudge to an earthquake.
+* @param $strength ['weak', 'medium', 'strong']
+*/
+@mixin vibrate($strength: 'medium') {
+
+}
+/**
+* Collapsing, implosion or explosion animation effect.
+* @param $direction [in, out, up, right, down, left]
+*/
+@mixin collapse($direction: 'up') {
+
+}
+
