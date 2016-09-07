@@ -32,7 +32,7 @@ The smooth context uses border radius and :before and :after pseudoclasses, and 
 
 Lines are avoided in the smooth model and shades and hues are used to provide distinction between elements.
 
-## III Vertical rhythm
+### III Vertical rhythm
 
 The framework provides some tools to establish vertical rhythm. 
 It uses the Sassline library for the baseline grid (source: https://github.com/jakegiltsoff/sassline).
