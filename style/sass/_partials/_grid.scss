@@ -5,39 +5,67 @@
 * @since March 2016
 */
 
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin mobileOnly {
+  @media (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin tabletUp {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
 
 @mixin makeGrid($num, $padding: 2%, $margin: 2%) {
 	@for $i from 1 through $num {
-		.has-#{$i} {
+		@include tabletUp {
+			.has-#{$i} {
 			
-			> * {
-				float: left;/* 
-				&:not(.nopadding) {
-					padding-right: $padding;
-				} */
-				&:not([class^="is-"]) {
-					width: 100%;
+				> * {
+					float: left;
+					
+					&:not([class^="is-"]) {
+						width: 100%;
+					}
+					
 				}
-				
+				width: 100%;
+				display: block;
 			}
-			width: 100%;
-			display: block;
-			@extend %clearfix;
+			.is-#{$i} {
+				&.standalone {
+					$factor: $num / $i;
+					@include isMarginContainer($factor, $margin);
+				}
+				&:not(.standalone) {
+					$factor: $i / $num;
+					@include isContainer($factor);
+				}
+			}
+			@if $i < $num {
+				.offset-#{$i} {
+					margin-left: calcGridColumnWidth($num, $i);
+				}
+			}
 		}
-		.is-#{$i} {
-			&.standalone {
-				$factor: $num / $i;
-				@include isMarginContainer($factor, $margin);
-			}
-			&:not(.standalone) {
-				$factor: $i / $num;
-				@include isContainer($factor);
-			}
+
+		
+	}
+	@include mobileOnly {
+		$fontsize: 16px;
+		[class^='has-'], [class*=' has-'],
+			[class^='is-'], [class*=' is-'] {
+				width: 100% !important;
 		}
-		@if $i < $num {
-			.offset-#{$i} {
-				margin-left: calcGridColumnWidth($num, $i);
-			}
+		main, .main-footer {
+			padding: 2*$fontsize;
+		}
+		.block-group .block {
+			padding: 0 0;
 		}
 		
 	}

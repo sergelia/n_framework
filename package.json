@@ -2,7 +2,7 @@
   "name": "n-framework",
   "version": "1.0.0",
   "description": "Simplistic responsive front-end framework",
-  "main": "index.html",
+  "main": "readme.md",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

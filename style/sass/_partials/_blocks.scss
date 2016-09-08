@@ -654,3 +654,7 @@ blockquote, .blockquote {
 .img-circle {
 	border-radius: 50%;
 }
+
+.main-header, .main-footer, main {
+	@extend %clearfix;
+}

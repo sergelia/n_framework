@@ -1,0 +1,1178 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"template",
+				"templateEngine"
+			],
+			[
+				"utf",
+				"utf8_encode"
+			],
+			[
+				"null",
+				"is_null"
+			],
+			[
+				"json",
+				"json_last_error"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"mcryp",
+				"mcrypt_create_iv"
+			],
+			[
+				"PARAM",
+				"PARAM_STR"
+			],
+			[
+				"innerh",
+				"innerHtml"
+			],
+			[
+				"Api",
+				"APIService"
+			],
+			[
+				"array_",
+				"array_combine"
+			],
+			[
+				"target",
+				"target_element"
+			],
+			[
+				"numb",
+				"number_of_elements"
+			],
+			[
+				"shade-",
+				"shade-border"
+			],
+			[
+				"contrast",
+				"contrast-color"
+			],
+			[
+				"subdu",
+				"subdue-color"
+			],
+			[
+				"menu",
+				"menu-width"
+			],
+			[
+				"ma",
+				"main-menu-height"
+			],
+			[
+				"vertical",
+				"vertical-align"
+			],
+			[
+				"vet",
+				"vertical-align"
+			],
+			[
+				"acc",
+				"accent-color"
+			],
+			[
+				"sub",
+				"subdue-color"
+			],
+			[
+				"break",
+				"word-break"
+			],
+			[
+				"webk",
+				"webkit-appearance"
+			],
+			[
+				"find",
+				"findPoint"
+			],
+			[
+				"va",
+				"valueOf"
+			],
+			[
+				"max",
+				"maxlength	Attr"
+			],
+			[
+				"round",
+				"roundValueInBracket"
+			],
+			[
+				"level",
+				"levelSizes"
+			],
+			[
+				"no",
+				"NodeValue"
+			],
+			[
+				"node",
+				"NodeTitle"
+			],
+			[
+				"valu",
+				"Value"
+			],
+			[
+				"titl",
+				"Title"
+			],
+			[
+				"ti",
+				"Title"
+			],
+			[
+				"right",
+				"rightLimits"
+			],
+			[
+				"left",
+				"leftNode"
+			],
+			[
+				"handle",
+				"handleLayoutHorizontal"
+			],
+			[
+				"insert",
+				"insertRelationship"
+			],
+			[
+				"wh",
+				"WHERE"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"author",
+				"author_id"
+			],
+			[
+				"filter",
+				"filterSpam"
+			],
+			[
+				"toggle",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"eac",
+				"each	.each()"
+			],
+			[
+				"T",
+				"TAGGED"
+			],
+			[
+				"mouse",
+				"mouseover	.mouseover()"
+			],
+			[
+				"quality",
+				"qualityTemplate"
+			],
+			[
+				"prepend",
+				"prependTo	.prependTo()"
+			],
+			[
+				"new",
+				"new-message"
+			],
+			[
+				"get",
+				"get	Get Elements"
+			],
+			[
+				"tool",
+				"tooltipManager"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"inlien",
+				"inline-block"
+			],
+			[
+				"each",
+				"each	$.each()"
+			],
+			[
+				"hich",
+				"highcharts"
+			],
+			[
+				"autoboost-",
+				"autoboost-charts-wrapper"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"B",
+				"BICountryController"
+			],
+			[
+				"nb_",
+				"nb_form"
+			],
+			[
+				"BI",
+				"BIUserController"
+			],
+			[
+				"OpeningC",
+				"OpeningCreateCtrl"
+			],
+			[
+				"ht",
+				"http"
+			],
+			[
+				"TRANS",
+				"transparent"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"ackground-",
+				"background-color"
+			],
+			[
+				"state",
+				"stateProvider"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"Futu",
+				"FuturaBook"
+			],
+			[
+				"stoneh",
+				"stonehearthrecipes"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"wdi",
+				"width"
+			],
+			[
+				"PureA",
+				"PureAnnounce"
+			],
+			[
+				"db",
+				"db_con"
+			],
+			[
+				"FETCH",
+				"FETCH_OBJ"
+			],
+			[
+				"parents",
+				"parents	.parents()"
+			],
+			[
+				"pu",
+				"PureError"
+			],
+			[
+				"response",
+				"responseText"
+			],
+			[
+				"fetch",
+				"fetchAll"
+			],
+			[
+				"decry",
+				"decrypted"
+			],
+			[
+				"mcrp",
+				"mcrypt_encrypt"
+			],
+			[
+				"goal_",
+				"goal_path"
+			],
+			[
+				"goal",
+				"goal_base"
+			],
+			[
+				"return",
+				"returnData"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"parse",
+				"parse_url"
+			],
+			[
+				"seri",
+				"serialize_form"
+			],
+			[
+				"fo",
+				"form_data2"
+			],
+			[
+				"Delet",
+				"DeleteRequest"
+			],
+			[
+				"jso",
+				"jQuery.parseJSON	jQuery.parseJSON"
+			],
+			[
+				"seriali",
+				"serialize_form"
+			],
+			[
+				"serial",
+				"serializeArray	.serializeArray()"
+			],
+			[
+				"seria",
+				"serializeArray	.serializeArray()"
+			],
+			[
+				"ready",
+				"ready	$(document).ready"
+			],
+			[
+				"EXE",
+				"execute"
+			],
+			[
+				"prep",
+				"prep_obj"
+			],
+			[
+				"form",
+				"form_data"
+			],
+			[
+				"pos",
+				"posts_decode"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"NB",
+				"NB_CMS"
+			],
+			[
+				"err",
+				"error_log"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"in",
+				"inarray	$.inArray()"
+			],
+			[
+				"remov",
+				"removeClass	.removeClass()"
+			],
+			[
+				"Futura",
+				"FuturaBold"
+			],
+			[
+				"Fut",
+				"FuturaBook"
+			],
+			[
+				"path",
+				"path_info"
+			],
+			[
+				"pat",
+				"path_info"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"att",
+				"attr	.attr() - single"
+			],
+			[
+				"normali",
+				"normalizeSizesOneCarousel"
+			],
+			[
+				"carous",
+				"carouselize"
+			],
+			[
+				"ea",
+				"each	$.each()"
+			],
+			[
+				"background",
+				"background-position"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 241.0,
+		"last_filter": "java",
+		"selected_items":
+		[
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"syn",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jquery s",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"PHP",
+				"Set Syntax: PHP"
+			],
+			[
+				"reset",
+				"Snippet: cssreset"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/promptbattle/modules/messenger/msg-module.js",
+		"/C/wamp/www/promptbattle/modules/prototype/sample-module.js",
+		"/C/wamp/www/promptbattle/modules/prototype/templates/index.tpl.html",
+		"/C/wamp/www/promptbattle/js/Application.js",
+		"/C/wamp/www/promptbattle/js/lib.js",
+		"/C/wamp/www/pubsub/script.js",
+		"/C/wamp/www/promptbattle/edit.html",
+		"/C/wamp/www/promptbattle/writer.html",
+		"/C/wamp/www/promptbattle/js/core/URLParser.js",
+		"/C/wamp/www/promptbattle/js/facades/PromptFacade.js",
+		"/C/wamp/www/promptbattle/js/facades/CategoryFacade.js",
+		"/C/wamp/www/promptbattle/js/facades/BattleFacade.js",
+		"/C/wamp/www/promptbattle/index.html",
+		"/C/wamp/www/promptbattle/modules/prompt-list/prompts-list.js",
+		"/C/wamp/www/promptbattle/modules/prompt-list/templates/battleground.html",
+		"/C/wamp/www/promptbattle/modules/messenger/templates/notifybar.tpl.html",
+		"/C/wamp/www/promptbattle/modules/second-mod/templates/battleground.html",
+		"/C/wamp/www/promptbattle/modules/second-mod/second-mod.js",
+		"/C/wamp/www/promptbattle/modules/test-module/templates/notifybar.tpl.html",
+		"/C/wamp/www/promptbattle/modules/test-module/test-module.js",
+		"/C/wamp/www/promptbattle/js/APIService.js",
+		"/C/wamp/www/promptbattle/js/framework.js",
+		"/C/wamp/www/promptbattle/modules/test/templates/message.tpl.html",
+		"/C/wamp/www/promptbattle/modules/test/templates/notifybar.tpl.html",
+		"/C/wamp/www/promptbattle/modules/test/test-module.js",
+		"/C/wamp/www/promptbattle/js/core/Monitor.js",
+		"/C/Users/Alexander/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/Alexander/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/wamp/www/promptbattle/style/sass/index.scss",
+		"/C/wamp/www/promptbattle/style/sass/_partials/_blocks.scss",
+		"/C/wamp/www/promptbattle/monitor/test.php",
+		"/C/wamp/www/promptbattle/js/core/Storage.js",
+		"/C/wamp/www/phpinfo.php",
+		"/C/wamp/www/ideabattle/models/User.php",
+		"/C/wamp/www/promptbattle/package.json",
+		"/C/wamp/www/promptbattle/monitor/restObject.php",
+		"/C/wamp/www/portfolio/forms.html",
+		"/C/wamp/www/promptbattle/style/sass/_partials/_grid.scss",
+		"/C/wamp/www/promptbattle/monitor/dbcon.php",
+		"/C/wamp/www/api/restObject.php",
+		"/C/wamp/www/promptbattle/monitor/rest.php",
+		"/C/wamp/www/promptbattle/monitor/controller/User.php",
+		"/C/wamp/www/promptbattle/monitor/restServer.php",
+		"/C/wamp/www/promptbattle/monitor/controller/Prompt.php",
+		"/C/wamp/www/promptbattle/js/facades/UserFacade.js",
+		"/C/wamp/www/promptbattle/js/models/UserModel.js",
+		"/C/wamp/www/promptbattle/js/models/BattleModel.js",
+		"/C/wamp/www/promptbattle/js/models/PromptModel.js",
+		"/C/wamp/www/promptbattle/js/core/Presenter.js",
+		"/C/wamp/www/promptbattle/monitor/controller/Encrypt.php",
+		"/C/wamp/www/promptbattle/style/css/vendor/quill-snow.css",
+		"/C/wamp/www/promptbattle/js/vendor/quill.js",
+		"/C/wamp/www/framework/resources/views/angular/scripts/CompanyCtrl.js",
+		"/C/wamp/www/framework/resources/views/angular/scripts/OpeningCtrl.js",
+		"/C/wamp/www/framework/app/Http/routes.php",
+		"/C/wamp/www/promptbattle/style/sass/_partials/_config.scss",
+		"/C/wamp/www/promptbattle/writer.php",
+		"/C/wamp/www/api/restServer.php",
+		"/C/wamp/www/api/restObjects/rest_User.php",
+		"/C/wamp/www/promptbattle/monitor/.htaccess",
+		"/C/Users/Alexander/LocalServer/index.html",
+		"/C/wamp/www/framework/resources/views/angular/scripts/ApiService.js",
+		"/C/wamp/www/promptbattle/js/draft_compare.js",
+		"/C/wamp/www/framework/app/Http/Controllers/CityController.php",
+		"/C/wamp/www/framework/app/Http/Controllers/TrackerController.php",
+		"/C/wamp/www/framework/app/Model/Repositories/CityRepository.php",
+		"/C/wamp/www/framework/resources/views/angular/scripts/CityCtrl.js",
+		"/C/wamp/www/framework/app/Http/Controllers/notes",
+		"/C/wamp/www/project2/app.js",
+		"/C/wamp/www/project2/dev/js/events.js",
+		"/C/wamp/www/nb_code/resources/views/angular/scripts/ApiService.js",
+		"/C/wamp/www/promptbattle/monitor/restObjects/rest_User.php",
+		"/C/wamp/www/promptbattle/monitor/endpoint.php",
+		"/C/wamp/www/job_scrape/db_con_master.php",
+		"/C/Users/Alexander/AppData/Local/Temp/7zOCAC04192/rest_User.php",
+		"/C/Users/Alexander/AppData/Local/Temp/7zOCAC80261/restObject.php",
+		"/C/Users/Alexander/AppData/Local/Temp/7zOCACB9DED/restServer.php",
+		"/C/Users/Alexander/AppData/Local/Temp/7zOCACE4A70/rest.php",
+		"/C/Users/Alexander/Documents/Life/Coding projects/design resources/work.html",
+		"/C/Users/Alexander/AppData/Local/Temp/7zO4899745A/_typography.scss",
+		"/C/Users/Alexander/AppData/Local/Temp/7zO489FA0DA/_waves.scss",
+		"/C/Users/Alexander/AppData/Local/Temp/7zO4899CC49/_cards.scss",
+		"/C/Users/Alexander/AppData/Local/Temp/7zO48912029/_chips.scss",
+		"/C/Users/Alexander/AppData/Local/Temp/fz3temp-1/style 2.css",
+		"/C/wamp/www/promptbattle/create.sql",
+		"/C/wamp/www/promptbattle/node_modules/quill/core.js",
+		"/C/wamp/www/project/dev/js/models/db-entity.js",
+		"/C/wamp/www/project/dev/js/models/db-user.js",
+		"/C/wamp/www/project/dev/js/models/db-message.js",
+		"/C/wamp/www/project2/dev/js/models/db-entity.js",
+		"/C/wamp/www/project2/message.js",
+		"/C/wamp/www/project2/dev/js/models/db-conversation.js",
+		"/C/wamp/www/autoboost/frontend/code/js/components/history/Dropdown.js",
+		"/C/wamp/www/promptbattle/views/head.tpl",
+		"/C/wamp/www/promptbattle/views/foot.tpl",
+		"/C/wamp/www/promptbattle/.htaccess",
+		"/C/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+		"/C/wamp/www/promptbattle/monitor/UserController.php",
+		"/C/wamp/www/promptbattle/monitor/RestController.php",
+		"/C/wamp/www/job_scrape/paths.php",
+		"/C/wamp/www/dsa/process.php",
+		"/C/wamp/www/dsa/Database.php",
+		"/C/wamp/www/portfolio/js/accordion.js",
+		"/C/wamp/www/project/app.js",
+		"/C/wamp/www/ideabattle/battlefront.html",
+		"/C/Users/Alexander/AppData/Local/Temp/fz3temp-1/_config.scss",
+		"/C/Users/Alexander/AppData/Local/Temp/7zO02B116B8/colorProvider.js",
+		"/C/wamp/www/portfolio/js/archive.slider.js",
+		"/C/wamp/www/portfolio/style/sass/_partials/_grid.scss",
+		"/C/wamp/www/portfolio/style/sass/_partials/_dynamic.scss",
+		"/C/wamp/www/portfolio/gruntfile.js",
+		"/C/wamp/www/portfolio/testslide.html",
+		"/C/wamp/www/portfolio/style/sass/_partials/_decoration.scss",
+		"/C/wamp/www/portfolio/style/sass/_partials/_config.scss",
+		"/C/Users/Alexander/AppData/Local/Temp/fz3temp-1/index.scss",
+		"/C/wamp/www/portfolio/style/sass/index.scss",
+		"/C/wamp/www/project/user.js",
+		"/C/wamp/www/portfolio/fullwidth.html",
+		"/C/wamp/www/portfolio/gallery.html",
+		"/C/wamp/www/portfolio/table.html",
+		"/C/wamp/www/portfolio/menus.html",
+		"/C/wamp/www/portfolio/style/sass/_partials/_blocks.scss",
+		"/C/Users/Alexander/Documents/Life/portfolio/_form.scss",
+		"/C/wamp/www/portfolio/cards.html",
+		"/C/wamp/www/portfolio/index.html",
+		"/C/wamp/www/ideabattle/index.html",
+		"/C/wamp/www/index.php",
+		"/C/wamp/bin/apache/apache2.4.9/conf/httpd.conf.build"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\portfolio\\style\\sass",
+			"C:\\wamp\\www\\portfolio\\style\\sass\\_partials",
+			"C:\\wamp\\www\\project",
+			"C:\\Users\\Alexander\\Documents\\bc_transfer\\shop\\skins",
+			"C:\\Users\\Alexander\\Documents\\bc_transfer\\shop",
+			"C:\\Users\\Alexander\\Documents\\bc_transfer\\classes\\XLite\\Module\\CDev\\SimpleCMS",
+			"C:\\Users\\Alexander\\Documents\\bc_transfer\\classes\\XLite",
+			"C:\\Users\\Alexander\\Documents\\bc_transfer\\classes",
+			"C:\\Users\\Alexander\\Documents\\bc_transfer\\classes\\XLite",
+			"C:\\Users\\Alexander\\Documents\\bc_transfer\\classes",
+			"C:\\Users\\Alexander\\Documents\\Work\\creambyte\\giantprographics\\oxides",
+			"C:\\wamp\\www\\dashboard\\frontend\\code\\scss",
+			"C:\\wamp\\www\\frontend_promoter\\code\\scss",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\en",
+			"C:\\wamp\\www\\bi_testapp\\app\\Http\\Middleware",
+			"C:\\wamp\\www\\bi_testapp",
+			"C:\\wamp\\www\\bi_testapp\\resources\\views",
+			"C:\\wamp\\www\\framework\\resources\\views\\angular",
+			"C:\\wamp\\www\\job_scrape\\shiny-public\\assets\\js",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\en",
+			"C:\\wamp\\www\\bluecashew\\dev\\skins",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\en",
+			"C:\\wamp\\www\\bluecashew\\dev\\classes\\XLite",
+			"C:\\wamp\\www\\bluecashew\\dev\\classes\\XLite\\View",
+			"C:\\wamp\\www\\bluecashew\\dev\\classes\\XLite",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\en",
+			"C:\\wamp\\www\\bluecashew\\dev\\skins",
+			"C:\\wamp\\www\\bluecashew\\dev\\skins\\default",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\en",
+			"C:\\wamp\\www\\bluecashew\\dev\\skins\\default",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\en",
+			"C:\\wamp\\www\\bluecashew\\dev\\skins\\default\\en",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\en",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\css_backup",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\en",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\en\\css",
+			"C:\\wamp\\www\\bluecashew\\dev\\skins",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\en",
+			"C:\\wamp\\www\\bluecashew\\dev\\skins\\default",
+			"C:\\wamp\\www\\bluecashew\\dev\\skins\\default\\en\\css",
+			"C:\\wamp\\www\\bluecashew\\dev\\skins",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\en",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\n_bluecashew",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\bluecashew_backup",
+			"C:\\Users\\Alexander\\Documents\\backupwww\\en",
+			"C:\\wamp\\www\\WAD",
+			"C:\\wamp\\www\\xcart\\skin\\ideal_responsive\\customer",
+			"C:\\wamp\\www\\xcart\\skin\\common_files",
+			"C:\\Users\\Alexander\\Documents\\Work\\wamp\\ideal_responsive",
+			"C:\\wamp\\www\\xcart\\skin\\ideal_responsive\\customer",
+			"C:\\wamp\\www\\xcart\\skin\\common_files",
+			"C:\\wamp\\www\\xcart\\skin\\ideal_responsive\\customer",
+			"C:\\wamp\\www\\xcart\\skin\\common_files\\customer\\main",
+			"C:\\wamp\\www\\xcart\\skin\\ideal_responsive\\customer",
+			"C:\\wamp\\www\\xcart\\skin\\ideal_responsive\\customer\\main",
+			"C:\\wamp\\www\\xcart\\skin\\common_files",
+			"C:\\wamp\\www\\xcart\\skin\\ideal_responsive\\customer",
+			"C:\\wamp\\www\\xcart\\skin",
+			"C:\\wamp\\www\\xcart\\skin\\ideal_responsive\\customer",
+			"C:\\wamp\\www\\xcart\\skin",
+			"C:\\wamp\\www\\xcart\\skin\\2-columns",
+			"C:\\wamp\\www\\xcart\\skin",
+			"C:\\wamp\\www\\xcart\\skin\\2-columns",
+			"C:\\wamp\\www\\xcart\\skin\\ideal_responsive\\customer",
+			"C:\\wamp\\www\\plugin\\addthis",
+			"C:\\wamp\\www\\plugin\\addthis\\includes",
+			"C:\\wamp\\www\\plugin\\addthis\\js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Didot Open Face W01",
+			"echo",
+			"whaa",
+			"400",
+			"bad request",
+			"getmyvars",
+			"didot",
+			"frutiger",
+			"futur",
+			"block",
+			".logo",
+			"autoinde",
+			"documentroot",
+			"class=\"card is-6",
+			"\n          ",
+			"font-family",
+			"colour",
+			"color",
+			"directory",
+			"menu",
+			"}\n",
+			"theme/022",
+			"theme/023",
+			"new-site-url",
+			"old-site-url",
+			"href=#",
+			"/shop/",
+			"headline",
+			"throw er;",
+			"throw er",
+			"throw",
+			"new_user",
+			"cardItem",
+			"promptItem",
+			"2em",
+			"star",
+			"new-site-url",
+			"old-site-url",
+			"initialization",
+			"commonController",
+			"tag",
+			"tinymce",
+			"validator",
+			"tinymce",
+			"AProcessor",
+			"strip_tags",
+			"thumbnail",
+			"featured",
+			"getCategor",
+			"data.backgr",
+			"data(",
+			".data(\"background-width\").match(/\\d+/))",
+			"- ",
+			"margin-top",
+			"125",
+			"margin-top: -125px",
+			"-125px",
+			"edgtf-content",
+			"edgtf-content-inner",
+			"after",
+			"before_",
+			"edgtf-post-info-date",
+			"container_open",
+			"containeropen",
+			"afterContaineropen",
+			"after_container_open",
+			"edge_after_container_open",
+			"oxides_edge_after_container_open",
+			"new-site-url",
+			"old-site-url",
+			".step-title",
+			".payment-step",
+			".steps",
+			".shipping-step",
+			".review-step",
+			" .steps ",
+			".steps",
+			"new-site-url",
+			"localhost:88888",
+			"old-site-url",
+			"listen",
+			"findpoint",
+			"adjust",
+			"valueof",
+			"findbracket",
+			"findbrackth",
+			"form.render",
+			"root",
+			"root-no",
+			"movebottom",
+			"node.level",
+			"root-node",
+			"isroot",
+			"style",
+			"h2",
+			"roboto",
+			"selected",
+			"font-family",
+			"font",
+			"new-site-url",
+			"old-site-url",
+			"http://tourtus.com",
+			"http://dev.creambyte.com/job/tourtus.com",
+			"\n			",
+			"var_d",
+			"hashtable",
+			"HashTable",
+			"HashTableNode",
+			"get",
+			"set",
+			"_get_index",
+			"_double_tablesize",
+			"_size",
+			"_array",
+			"MoveRigth",
+			"insert",
+			"/create",
+			"user",
+			"register",
+			"message tagged",
+			"NoteEmitter",
+			"white-text ",
+			"content",
+			"socket",
+			"handshake.session",
+			"socketid",
+			"login",
+			"handshake.session.use"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Arapey",
+			"class=\"is-6 card",
+			"hearthpizzeria.com",
+			"dev.creambyte.com/job/hearth",
+			"theme/022",
+			"theme/023",
+			"href='#'",
+			"href=\"#\"",
+			"/",
+			"card-item",
+			"prompt-item",
+			"bluecashewkitchen.com/blog",
+			"bluecashewkitchen.com/shop/blog",
+			"bluecashewkitchen.com/shop/blog/",
+			"bluecashewkitchen.com/shop_new/blog/",
+			".n-step-title",
+			".n-payment-step",
+			".n-steps",
+			".n-shipping-step",
+			".n-review-step",
+			" .n-steps ",
+			".n-steps",
+			"http://tanecprovsechny.cz",
+			"http://localhost:8888/wp_skolatpv",
+			"localhost:88888",
+			"kulturkokoska.rs",
+			"kulturkokoska.com",
+			"new-site-url",
+			"old-site-url",
+			"btree",
+			"Hashtable",
+			"HashTableRecord",
+			"retrieve",
+			"insert",
+			"getHash",
+			"expand",
+			"size",
+			"arr",
+			"MoveRight",
+			"NoteManager",
+			"",
+			"cz",
+			"Message",
+			"number",
+			")",
+			"(",
+			"$arr",
+			"",
+			"class=\"message hoverable\"",
+			"http://labs.qnimate.com/portfolio-materialize/images/profile.png",
+			"img/demo.png",
+			"public",
+			"common/components/Card",
+			"link-btn",
+			", ",
+			",",
+			",/\\s",
+			",\\s",
+			" ",
+			"",
+			"]",
+			"div",
+			"array('placeholder",
+			"!!",
+			"{!",
+			"!}",
+			"!}}",
+			"{{!",
+			"']}}",
+			"['",
+			"div",
+			"$user",
+			"\\Response::json",
+			"http://wekopak.com",
+			"http://dev.creambyte.com/theme/022/",
+			"Country",
+			"country",
+			"founder",
+			".tpl.html",
+			"data.",
+			"",
+			"nb-some",
+			"ctrl",
+			":",
+			"\\n\\}",
+			"}\\n",
+			".keyword-cloud",
+			"\"",
+			"'../resources/views/angular/views",
+			"'../resources/views/angular/",
+			"../resources",
+			"..resources",
+			"src=\"/resources/views/",
+			"/resources/views/",
+			"src=\"angular/",
+			"opening",
+			"City",
+			"Tracker",
+			"Company",
+			"ctrl",
+			"opening",
+			"City",
+			"Opening",
+			"Company",
+			"dev.creambyte.com/theme/019",
+			"recipes.hearthpizzeria.com",
+			"http://cookingpress.purethe.me/",
+			"<div class=\"form-group\">",
+			"<tr>",
+			"hidden-xs ",
+			"ms-info visible-xs-block ",
+			"ms-info visible-xl-block ",
+			"ms-slide col-xl-7 col-lg-8 col-md-10 col-sm-12",
+			"ms-slide col-xl-7 col-lg-8 col-md-12",
+			"ms-info col-lg-10",
+			"ms-info col-lg-8",
+			"col-lg-4",
+			"",
+			"ms-info col-lg-2",
+			"ms-slide col-lg-4",
+			"slider",
+			"item-thumbnail"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "_grid.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 354.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
